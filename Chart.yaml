@@ -35,6 +35,6 @@ dependencies:
     repository: "@bitnami"
     alias: alias-2
   - name: redis
-    version: 19.5.0
+    version: 23.1.1
     repository: "@bitnami"
     alias: alias-3
