@@ -9,7 +9,7 @@
       "matchManagers": ["helmv3"],
       "matchDatasources": ["docker"],
       "matchPackageNames": ["foo.com/bar/**"],
-      "registryUrls": ["registry-1.docker.io/bitnamicharts/"]
+      "overridePackageName": "{{replace 'foo.com/bar' 'registry-1.docker.io/bitnamicharts' packageName}}"
     }
   ]
 }
