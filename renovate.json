@@ -9,7 +9,7 @@
       "matchManagers": ["helmv3"],
       "matchDatasources": ["docker"],
       "matchPackageNames": ["foo.com/bar/**"],
-      "registryUrl": "registry-1.docker.io/bitnamicharts/"
+      "registryUrls": ["registry-1.docker.io/bitnamicharts/"]
     }
   ]
 }
