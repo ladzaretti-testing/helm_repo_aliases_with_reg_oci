@@ -8,7 +8,7 @@
     {
       "matchDatasources": ["docker"],
       "matchPackageNames": ["foo.com/bar/**"],
-      "commitMessagePrefix": "foo_"
+      "replacementName": "registry-1.docker.io/bitnamicharts/nginx"
     }
   ]
 }
