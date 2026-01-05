@@ -5,9 +5,11 @@
     "bitnami": "https://charts.bitnami.com/bitnami"
   },
   "packageRules": [
-    {
+     {
+      "matchManagers": ["helmv3"],
       "matchDatasources": ["docker"],
-      "replacementName": "registry-1.docker.io/bitnamicharts/nginx"
+      "matchPackageNames": ["foo.com/bar/**"],
+      "overridePackageName": "registry-1.docker.io/bitnamicharts/nginx"
     }
   ]
 }
