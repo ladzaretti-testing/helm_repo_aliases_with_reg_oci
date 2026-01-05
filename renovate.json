@@ -6,9 +6,11 @@
   },
   "packageRules": [
     {
-      "matchManagers": [ "helmv3" ],
-      "matchPackageNames": ["/^foo\\.com/bar/"],
-      "registryUrls": [ "https://charts.bitnami.com/bitnami" ]
+      "matchManagers": ["helmv3"],
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["foo.com/bar/redis"],
+      "registryUrls": ["https://registry-1.docker.io"],
+      "replacementName": "bitnamicharts/redis"
     }
   ]
 }
