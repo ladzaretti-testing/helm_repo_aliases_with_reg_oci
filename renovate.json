@@ -9,8 +9,7 @@
       "matchManagers": ["helmv3"],
       "matchDatasources": ["docker"],
       "matchPackageNames": ["foo.com/bar/nginx"],
-      "registryUrls": ["https://registry-1.docker.io"],
-      "replacementName": "bitnamicharts/nginx"
+      "replacementName": "registry-1.docker.io/bitnamicharts/nginx"
     }
   ]
 }
