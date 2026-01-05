@@ -6,10 +6,9 @@
   },
   "packageRules": [
     {
-      "matchManagers": ["helmv3"],
       "matchDatasources": ["docker"],
       "matchPackageNames": ["foo.com/bar/**"],
-      "replacementName": "registry-1.docker.io/bitnamicharts/nginx"
+      "commitMessagePrefix": "foo_"
     }
   ]
 }
