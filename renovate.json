@@ -4,11 +4,11 @@
   "registryAliases": {
     "bitnami": "https://charts.bitnami.com/bitnami"
   },
-   "packageRules": [
+  "packageRules": [
     {
       "matchManagers": [ "helmv3" ],
       "matchPackageNames": ["/^foo\\.com/bar/"],
       "registryUrls": [ "https://charts.bitnami.com/bitnami" ]
     }
-  }
+  ]
 }
