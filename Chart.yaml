@@ -28,7 +28,7 @@ dependencies:
     repository: "@bitnami"
   - name: nginx
     version: 18.2.3
-    repository: "https://charts.bitnami.com/bitnami"
+    repository: "oci://foo.com/bar"
     alias: alias-1
   - name: nginx
     version: 18.2.3
